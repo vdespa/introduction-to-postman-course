@@ -76,7 +76,6 @@ Update an existing order. Requires authentication.
 The request body needs to be in JSON format and allows you to update the following properties:
 
  - `customerName` - String
- - `customerName` - String
  
  Example
 ```
