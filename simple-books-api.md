@@ -65,7 +65,7 @@ Allows you to view all orders. Requires authentication.
 
 GET /orders/:orderId
 
-Allows you to view all existing orders. Requires authentication.
+Allows you to view an existing order. Requires authentication.
 
 ### Update an order ###
 
