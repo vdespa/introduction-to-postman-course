@@ -55,6 +55,11 @@ Authorization: Bearer <YOUR TOKEN>
 
 The response body will contain the access token.
 
+### Get all orders ###
+
+GET /orders
+
+Allows you to view all orders. Requires authentication.
 
 ### Get an order ###
 
