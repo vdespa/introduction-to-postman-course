@@ -1,6 +1,6 @@
 # Simple Books API #
 
-This API allows you to order a book. 
+This API allows you to reserve a book. 
 
 The API is available at `https://simple-books-api.glitch.me`
 
@@ -95,7 +95,7 @@ The request body needs to be empty.
 ```
 DELETE /orders/PF6MflPDcuhWobZcgmJy5
 Authorization: Bearer <YOUR TOKEN>
-
+```
 
 ## API Authentication ##
 
