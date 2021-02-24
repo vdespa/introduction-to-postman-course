@@ -288,7 +288,7 @@
  * [Postman / Newman: Create better HTML reports](https://www.youtube.com/watch?v=EkrNGZxT0_k)
  
 
- ### Lesson 31 - CI/CD big picture
+ ### Lesson 31 - CI/CD overview
  
  #### 💡 - Main ideas
  - Newman is particulary useful when you integrate it with a CI server
