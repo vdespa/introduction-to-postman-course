@@ -2,7 +2,7 @@
 
 Hello and welcome to this free course on writing API tests with Postman. 
 
-[![Watch the video on freeCodeCamp](https://img.youtube.com/vi/example-us/maxresdefault.jpg)](https://youtu.be/example-us)
+[![Watch the video on freeCodeCamp](https://img.youtube.com/vi/VywxIQ2ZXw4/maxresdefault.jpg)](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
 
 ## Important links
 
@@ -10,4 +10,8 @@ Hello and welcome to this free course on writing API tests with Postman.
 * [📚 Simple Books API documentation](./simple-books-api.md)
 * [💬 Join the Discord Group for help](https://discord.gg/EEEct8sgYM)
 
-[@vdespa](https://twitter.com/vdespa)
+## Get in touch
+
+[Twitter](https://twitter.com/vdespa)
+[Linked-In](https://www.linkedin.com/in/vdespa/)
+[Courses](https://vdespa.com/courses)
