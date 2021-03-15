@@ -1,6 +1,6 @@
 # Simple Books API #
 
-This API allows you to reserve a book. 
+This API allows you to reserve a book.
 
 The API is available at `https://simple-books-api.glitch.me`
 
@@ -10,7 +10,7 @@ The API is available at `https://simple-books-api.glitch.me`
 
 GET /status
 
-Retruns the status of the API. 
+Returns the status of the API.
 
 ### List of books ###
 
@@ -21,7 +21,7 @@ Returns a list of books
 Optional query parameters:
 
 - type: fiction or non-fiction
-- limit: a number between 1 and 20. 
+- limit: a number between 1 and 20.
 
 
 ### Get a single book ###
@@ -76,7 +76,7 @@ Update an existing order. Requires authentication.
 The request body needs to be in JSON format and allows you to update the following properties:
 
  - `customerName` - String
- 
+
  Example
 ```
 PATCH /orders/PF6MflPDcuhWobZcgmJy5
@@ -111,14 +111,14 @@ The request body needs to be in JSON format and include the following properties
 
  - `clientName` - String
  - `clientEmail` - String
- 
+
  Example
- 
+
  ```
  {
     "clientName": "Valentin",
     "clientEmail": "valentin@example.com"
 }
  ```
- 
+
 The response body will contain the access token.
