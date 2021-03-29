@@ -8,15 +8,15 @@ The API is available at `https://simple-books-api.glitch.me`
 
 ### Status ###
 
-GET /status
+GET `/status`
 
 Returns the status of the API.
 
 ### List of books ###
 
-GET /books
+GET `/books`
 
-Returns a list of books
+Returns a list of books.
 
 Optional query parameters:
 
@@ -26,14 +26,14 @@ Optional query parameters:
 
 ### Get a single book ###
 
-GET /books/:bookId
+GET `/books/:bookId`
 
-Retrive detailed information about a book.
+Retrieve detailed information about a book.
 
 
 ### Submit an order ###
 
-POST /orders
+POST `/orders`
 
 Allows you to submit a new order. Requires authentication.
 
@@ -57,19 +57,19 @@ The response body will contain the access token.
 
 ### Get all orders ###
 
-GET /orders
+GET `/orders`
 
 Allows you to view all orders. Requires authentication.
 
 ### Get an order ###
 
-GET /orders/:orderId
+GET `/orders/:orderId`
 
 Allows you to view an existing order. Requires authentication.
 
 ### Update an order ###
 
-PATCH /orders/:orderId
+PATCH `/orders/:orderId`
 
 Update an existing order. Requires authentication.
 
@@ -89,7 +89,7 @@ Authorization: Bearer <YOUR TOKEN>
 
 ### Delete an order ###
 
-DELETE /orders/:orderId
+DELETE `/orders/:orderId`
 
 Delete an existing order. Requires authentication.
 
@@ -105,7 +105,7 @@ Authorization: Bearer <YOUR TOKEN>
 
 To submit or view an order, you need to register your API client.
 
-POST /api-clients/
+POST `/api-clients/`
 
 The request body needs to be in JSON format and include the following properties:
 
