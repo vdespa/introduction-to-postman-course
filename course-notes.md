@@ -281,6 +281,7 @@
 #### 📚 - Resources
  
  * [Postman API](https://documenter.getpostman.com/view/631643/JsLs/?version=latest)
+ * [Newman Support](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)
 
 ### Lesson 30 - HTML reports with Newman
 
