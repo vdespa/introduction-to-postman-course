@@ -123,6 +123,6 @@ The request body needs to be in JSON format and include the following properties
 
 The response body will contain the access token.
 
-*Possible errors*
+**Possible errors**
 
 Status code 409 - "API client already registered." Try changing the clientEmail and name to something else.
