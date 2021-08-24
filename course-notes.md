@@ -193,7 +193,8 @@
     * alternative syntax: `someobject["someproperty"]`
 
 #### 📚 - Resources
- 
+
+ * [Introduction to JavaScript for Postman (full course for FREE)](https://youtu.be/juuhb3W8xT4) 
  * [Chai Assertion Library](https://www.chaijs.com/api/bdd/)
  * [Make Sure Your Tests Fail, Valentin Despa | Postman Galaxy 2021](https://www.youtube.com/watch?v=a7G8Yrb5qWU)
 
