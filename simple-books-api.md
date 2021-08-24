@@ -125,4 +125,4 @@ The response body will contain the access token.
 
 **Possible errors**
 
-Status code 409 - "API client already registered." Try changing the clientEmail and name to something else.
+Status code 409 - "API client already registered." Try changing the values for `clientEmail` and `clientName` to something else.
