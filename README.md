@@ -14,4 +14,5 @@ Hello and welcome to this free course on writing API tests with Postman.
 
 * [Twitter](https://twitter.com/vdespa)
 * [LinkedIn](https://www.linkedin.com/in/vdespa/)
+* [Postman Complete course for API testing] - with FreeCodeCamp discount (https://www.udemy.com/course/postman-the-complete-guide/?couponCode=FREECODECAMP_2021) 
 * [Courses](https://vdespa.com/courses)
