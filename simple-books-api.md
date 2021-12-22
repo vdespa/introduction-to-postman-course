@@ -53,7 +53,7 @@ Authorization: Bearer <YOUR TOKEN>
 }
 ```
 
-The response body will contain the access token.
+The response body will contain the order Id.
 
 ### Get all orders ###
 
