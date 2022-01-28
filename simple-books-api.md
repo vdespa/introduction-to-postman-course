@@ -116,12 +116,12 @@ The request body needs to be in JSON format and include the following properties
 
  ```
  {
-    "clientName": "Valentin",
+    "clientName": "Postman",
     "clientEmail": "valentin@example.com"
 }
  ```
 
-The response body will contain the access token.
+The response body will contain the access token. The access token is valid for 7 days.
 
 **Possible errors**
 
