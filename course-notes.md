@@ -1,44 +1,47 @@
- # Introduction to Postman course notes
+# Introduction to Postman course notes
 
- ## Unit 1 - Introduction to Postman
+## Unit 1 - Introduction to Postman
 
- ### Lesson 1 - Welcome
+### Lesson 1 - Welcome
 
- #### 💡 - Main ideas
+#### 📚 - Resources
 
- ### Lesson 2 - What is Postman?
+* [Say THANK YOU for this course by subscribing on YouTube](https://www.youtube.com/@vdespa?sub_confirmation=1)
+* [Join the Postman newsletter](https://sendfox.com/lp/m74j2r)
 
- #### 💡 - Main ideas
+### Lesson 2 - What is Postman?
+
+#### 💡 - Main ideas
 - Postman is a tool that allows us to easily work with APIs.
 - Postman is used to build HTTP requests that we send to the server running the API.
 
- ### Lesson 3 - How to install Postman
+### Lesson 3 - How to install Postman
 
- #### 💡 - Main ideas
+#### 💡 - Main ideas
 - There are two ways to run Postman: 
-    * As a standalone app or 
-    * Directly in the browser
-- The standalone app is available for Windows, macOS and Linux.
+   * As a standalone app or 
+   * Directly in the browser
+- The standalone app is available for Windows, macOS, and Linux.
 - Postman on the web works from any browser but you may need to download the Postman Desktop Agent if your requests fail.
 - DO NOT use the Google Chrome extension as this is deprecated and no longer updated.
 
- #### 📚 - Resources
+#### 📚 - Resources
 
- * [Download Postman App](https://www.postman.com/downloads/)
- * [Open Postman on the web](https://go.postman.co/build)
- * [Postman Desktop Agent (scroll down)](https://www.postman.com/downloads/)
+* [Download Postman App](https://www.postman.com/downloads/)
+* [Open Postman on the web](https://go.postman.co/build)
+* [Postman Desktop Agent (scroll down)](https://www.postman.com/downloads/)
 
- ### Lesson 4 - Your first request with Postman
+### Lesson 4 - Your first request with Postman
 
- #### 💡 - Main ideas
+#### 💡 - Main ideas
 
- - To use an API you need to read the API documentation. We're using Simple Books API whose documentation can be found in the resources section of this lesson below.
- - Work in Postman is organized in Workspaces.
- - A status code 200 (or any status like 2XX) indicates that the request was successful.
+- To use an API you need to read the API documentation. We're using Simple Books API whose documentation can be found in the resources section of this lesson below.
+- Work in Postman is organized in Workspaces.
+- A status code 200 (or any status like 2XX) indicates that the request was successful.
 
- #### 📚 - Resources
- 
- * [Simple Books API documentation](./simple-books-api.md)
+#### 📚 - Resources
+
+* [Simple Books API documentation](./simple-books-api.md)
 
 
 ### Lesson 5 - HTTP
@@ -51,14 +54,14 @@
 - All APIs should use HTTPS.
 - From our point of view HTTP and HTTPS are the same.
 - The HTTP request message will contain: 
-    * URL (address)
-    * Request method (GET, POST, PUT, ...)
-    * Headers (User-Agent: Postman)
-    * Body
+   * URL (address)
+   * Request method (GET, POST, PUT, ...)
+   * Headers (User-Agent: Postman)
+   * Body
 - The HTTP response message will contain: 
-    * Status code (200, 404, 500, ...)
-    * Headers
-    * Body
+   * Status code (200, 404, 500, ...)
+   * Headers
+   * Body
 
 ### Lesson 6 - Postman collections and variables
 
@@ -71,8 +74,8 @@
 - Variables allow us to avoid repeating the same information.
 - Variables allow us to easily make changes.
 - A Postman variable has two states
-    * INITIAL VALUE - This will be available to others if you share the collection.
-    * CURRENT VALUE - This is private to you and this is the value that Postman uses.
+   * INITIAL VALUE - This will be available to others if you share the collection.
+   * CURRENT VALUE - This is private to you and this is the value that Postman uses.
 
 
 ### Lesson 7 - Query parameters
@@ -80,10 +83,10 @@
 #### 💡 - Main ideas
 - JSON is the most popular format that APIs use to send data.
 - Query parameters start after the `?` in the URL.
-    * example : `{{baseUrl}}/books?type=fiction`
+   * example : `{{baseUrl}}/books?type=fiction`
 - The format is `key=value`
 - Muliple query parameters are delimited in the URL with an `&`. 
-    * example: `foo=1&bar=2`
+   * example: `foo=1&bar=2`
 - Depending on the API, some query parameters can be optional or mandatory.
 - A response status 400 indicates an issue with the request data.
 - You can enable and disable parameters by clicking the checkbox associated with each key-value pair.
@@ -131,12 +134,12 @@
 
 #### 💡 - Main ideas
 - You can use a special type of Postman variable to generate random data
-    * example: `{{$randomFullName}}`
+   * example: `{{$randomFullName}}`
 - To inspect the request body you can use the Postman console.
 
- #### 📚 - Resources
- 
- * [Dynamic variables in Postman](https://postman-quick-reference-guide.readthedocs.io/en/latest/dynamic-variables.html)
+#### 📚 - Resources
+
+* [Dynamic variables in Postman](https://postman-quick-reference-guide.readthedocs.io/en/latest/dynamic-variables.html)
 
 ### Lesson 14 - Is Postman the right tool for me?
 
@@ -190,16 +193,16 @@
 - To make the assertions on a JSON response, you first need to parse it.
 - To see the contents of a JavaScript variable you can use `console.log()`
 - To get a property of an object, you can use this syntax: `someobject.someproperty`
-    * alternative syntax: `someobject["someproperty"]`
+   * alternative syntax: `someobject["someproperty"]`
 
 #### 📚 - Resources
 
- * [Introduction to JavaScript for Postman (full course for FREE)](https://youtu.be/juuhb3W8xT4) 
- * [Chai Assertion Library](https://www.chaijs.com/api/bdd/)
- * [Make Sure Your Tests Fail, Valentin Despa | Postman Galaxy 2021](https://www.youtube.com/watch?v=a7G8Yrb5qWU)
+* [Introduction to JavaScript for Postman (full course for FREE)](https://youtu.be/juuhb3W8xT4) 
+* [Chai Assertion Library](https://www.chaijs.com/api/bdd/)
+* [Make Sure Your Tests Fail, Valentin Despa | Postman Galaxy 2021](https://www.youtube.com/watch?v=a7G8Yrb5qWU)
 
- ### Lesson 21 - Assignment
- - Add tests for all the requests in the collection that verify the status code.
+### Lesson 21 - Assignment
+- Add tests for all the requests in the collection that verify the status code.
 
 ### Lesson 22 - Postman variables
 
@@ -212,8 +215,8 @@
 
 #### 📚 - Resources
 
- - [Demystifying Postman Variables: HOW and WHEN to use Different Variable Scopes](https://www.youtube.com/watch?v=1GOZh3ZITZU)
- - [How to set up different URLs in Postman using environment variables](https://youtu.be/HiIJbmjeTPU)
+- [Demystifying Postman Variables: HOW and WHEN to use Different Variable Scopes](https://www.youtube.com/watch?v=1GOZh3ZITZU)
+- [How to set up different URLs in Postman using environment variables](https://youtu.be/HiIJbmjeTPU)
 
 ### Lesson 23 - Extracting data from the response
 
@@ -224,8 +227,8 @@
 - Always use `console.log()` to view the data you are trying to set as a variable.
 
 #### 📚 - Resources
- 
- * [Array.prototype.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+
+* [Array.prototype.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
 ### Lesson 24 - Assignment
 - Test that the book extracted from the response is of type `non-fiction`
@@ -234,7 +237,7 @@
 ### Lesson 25 - Assignment
 - Use the Postman global variable `bookId` in the requests "Get single book" and "Order book".
 - Write a test that verifies the stock is >0
-    * use this assertion as a starting point: `pm.expect(1).to.be.above(2)`
+   * use this assertion as a starting point: `pm.expect(1).to.be.above(2)`
 
 ### Lesson 26 - Collection runner
 
@@ -252,8 +255,8 @@
 - If you wish to stop the execution prematurely, you can so so by running `postman.setNextRequest(null)`
 
 #### 📚 - Resources
- 
- * [Advanced workflows (request chaining) with Postman](https://www.youtube.com/watch?v=FWYKOR0Zj28)
+
+* [Advanced workflows (request chaining) with Postman](https://www.youtube.com/watch?v=FWYKOR0Zj28)
 
 ### Lesson 28 - Postman monitors
 
@@ -270,19 +273,19 @@
 - Newman does not have an interface, you need to work with it from the terminal.
 - Often Newman is installed on an integration server like Jenkins, GitLab CI or TeamCity.
 - To run Newman on your computer, you need to have Node.js installed.
-    * you can download Node.js from https://nodejs.org/ (download the LTS version)
+   * you can download Node.js from https://nodejs.org/ (download the LTS version)
 - To install newman, run the command: `npm install -g newman`
 - Check if newman is install with: `newman --version`
 - There are three ways to access a collection from Newman:
-    * Export the collection as a JSON file.
-    * Share with a public link.
-    * Use the Postman API to get the collection.
+   * Export the collection as a JSON file.
+   * Share with a public link.
+   * Use the Postman API to get the collection.
 
 
 #### 📚 - Resources
- 
- * [Postman API](https://documenter.getpostman.com/view/631643/JsLs/?version=latest)
- * [Newman Support](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)
+
+* [Postman API](https://documenter.getpostman.com/view/631643/JsLs/?version=latest)
+* [Newman Support](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)
 
 ### Lesson 30 - HTML reports with Newman
 
@@ -290,17 +293,17 @@
 - htmlextra is the most popular reporter in the Postman community
 
 #### 📚 - Resources
- 
- * [htmlextra reporter](https://www.npmjs.com/package/newman-reporter-htmlextra)
- * [Postman / Newman: Create better HTML reports](https://www.youtube.com/watch?v=EkrNGZxT0_k)
- 
 
- ### Lesson 31 - CI/CD overview
- 
- #### 💡 - Main ideas
- - Newman is particularly useful when you integrate it with a CI server.
+* [htmlextra reporter](https://www.npmjs.com/package/newman-reporter-htmlextra)
+* [Postman / Newman: Create better HTML reports](https://www.youtube.com/watch?v=EkrNGZxT0_k)
 
- #### 📚 - Resources
- 
- * [Newman Jenkins Tutorial](https://www.youtube.com/watch?v=7ar4-O3vNiM)
- * [Newman GitLab CI Tutorial](https://www.youtube.com/watch?v=H0WiDqhDIOs)
+
+### Lesson 31 - CI/CD overview
+
+#### 💡 - Main ideas
+- Newman is particularly useful when you integrate it with a CI server.
+
+#### 📚 - Resources
+
+* [Newman Jenkins Tutorial](https://www.youtube.com/watch?v=7ar4-O3vNiM)
+* [Newman GitLab CI Tutorial](https://www.youtube.com/watch?v=H0WiDqhDIOs)
