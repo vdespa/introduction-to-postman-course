@@ -16,6 +16,7 @@ Hello and welcome to this free course on writing API tests with Postman.
 * [🐦 Twitter](https://twitter.com/vdespa)
 * [🏢 LinkedIn](https://www.linkedin.com/in/vdespa/)
 * [🎓 My other Courses](https://vdespa.com/courses)
+* [Join the Postman newsletter](https://sendfox.com/lp/m74j2r)
 
 ## Learn even more
 
