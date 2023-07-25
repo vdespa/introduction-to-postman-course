@@ -31,6 +31,33 @@ GET `/books/:bookId`
 Retrieve detailed information about a book.
 
 
+## API Authentication ##
+
+To submit or view an order, you need to register your API client.
+
+POST `/api-clients/`
+
+The request body needs to be in JSON format and include the following properties:
+
+ - `clientName` - String
+ - `clientEmail` - String
+
+ Example
+
+ ```
+ {
+    "clientName": "Postman",
+    "clientEmail": "valentin@example.com"
+}
+ ```
+
+The response body will contain the access token. The access token is valid for 7 days.
+
+**Possible errors**
+
+Status code 409 - "API client already registered." Try changing the values for `clientEmail` and `clientName` to something else.
+
+
 ### Submit an order ###
 
 POST `/orders`
@@ -100,29 +127,3 @@ The request body needs to be empty.
 DELETE /orders/PF6MflPDcuhWobZcgmJy5
 Authorization: Bearer <YOUR TOKEN>
 ```
-
-## API Authentication ##
-
-To submit or view an order, you need to register your API client.
-
-POST `/api-clients/`
-
-The request body needs to be in JSON format and include the following properties:
-
- - `clientName` - String
- - `clientEmail` - String
-
- Example
-
- ```
- {
-    "clientName": "Postman",
-    "clientEmail": "valentin@example.com"
-}
- ```
-
-The response body will contain the access token. The access token is valid for 7 days.
-
-**Possible errors**
-
-Status code 409 - "API client already registered." Try changing the values for `clientEmail` and `clientName` to something else.
