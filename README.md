@@ -2,9 +2,11 @@
 
  [🏆 Become an EXPERT in Postman & API TESTING, without WASTING TIME](https://sendfox.com/lp/m74j2r)
 
-Hello and welcome to this free course on writing API tests with Postman. Scroll down for course notes & important links. 👇
+Hello 👋 and welcome to this free course on writing API tests with Postman. 
 
-[![Watch the video on freeCodeCamp](https://img.youtube.com/vi/VywxIQ2ZXw4/hqdefault.jpg)](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
+**Scroll down for course notes & important links.** 👇
+
+[![Watch the video on freeCodeCamp](https://img.youtube.com/vi/VywxIQ2ZXw4/sddefault.jpg)](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
 
 ## Important links
 
