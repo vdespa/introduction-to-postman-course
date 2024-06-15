@@ -6,8 +6,8 @@
 
 #### 📚 - Resources
 
-* [Say THANK YOU for this course by subscribing on YouTube](https://www.youtube.com/@vdespa?sub_confirmation=1)
-* [Join the Postman newsletter](https://sendfox.com/lp/m74j2r)
+* [Say THANK YOU for this course by subscribing to my YouTube channel](https://www.youtube.com/@vdespa?sub_confirmation=1)
+* [🏆 Become an EXPERT in Postman & API TESTING, without WASTING TIME](https://sendfox.com/lp/m74j2r)
 
 ### Lesson 2 - What is Postman?
 
