@@ -251,8 +251,9 @@
 
 #### 💡 - Main ideas
 - If you run a Postman collection, the default order is as you have it in the collection.
-- You can change that order if you use `postman.setNextRequest` and specify the name of the next request
-- If you wish to stop the execution prematurely, you can so so by running `postman.setNextRequest(null)`
+- In the video, `postman.setNextRequest()` is used to change the order of execution. However, this method is now deprecated.
+- The correct way to set the next request is by using `pm.execution.setNextRequest()` instead.
+- If you wish to stop the execution prematurely, you can do so by running `pm.execution.setNextRequest(null)`.
 
 #### 📚 - Resources
 
