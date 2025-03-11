@@ -20,7 +20,7 @@ Returns a list of books.
 
 Optional query parameters:
 
-- type: fiction or non-fiction
+- type: fiction or non-fiction or comedy
 - limit: a number between 1 and 20.
 
 
