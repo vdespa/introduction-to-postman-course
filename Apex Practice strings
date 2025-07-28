@@ -1,0 +1,34 @@
+tring str = 'i am a string variable';
+System.debug('Actual String: '+str);
+
+// capatalize string
+System.debug('Capatalize String: '+str.capitalize());
+
+//contains example
+system.debug('Contrains ring? :'+ str.contains('ring'));
+
+//convert to upper case
+System.debug('Upper case: '+ str.toUpperCase());
+//convert to lower case
+System.debug('Lower case: '+ str.toLowerCase());
+
+//equals
+System.debug('Is equal to ring?: '+str.equals('ring'));
+String str1 = 'Rishi';
+String str2 = 'Rishi';
+System.debug('Is str1 equal to str2: '+str1.equals(str2));
+
+//index of
+system.debug('The number letter correlation is: '+str.indexOf('r'));
+
+//remove
+System.debug('Remove ring: '+ str.remove('ring'));
+
+//replace
+System.debug('Replace ring: '+ str.replace('ring','rong'));
+
+//split 
+system.debug('Split by space: '+str.split(' '));
+
+//escape
+system.debug()
