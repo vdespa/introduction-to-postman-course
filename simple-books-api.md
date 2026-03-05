@@ -8,7 +8,7 @@ The API is available at `https://simple-books-api.click`
 
 ### Status ###
 
-GET `/status`
+HTTP Mrthod  GET `/status`
 
 Returns the status of the API.
 
